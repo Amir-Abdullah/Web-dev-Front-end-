@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive landing page</title>
+    <script src="https://kit.fontawesome.com/10f6828419.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body id="full">
+    <header>
+        <div class="my-4 d-flex justify-content-around">
+            <h1><span class="fs-1 text-secondary">Life Begin Convention Center</span></h1>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutus">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#registration">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Packages">Packages</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- image sliding panel -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <!-- 1st slide button-->
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <!-- 2nd slide button-->
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <!-- 3rd slide button-->
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <!-- 4th slide button-->
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <!-- 1st slide -->
+                    <div class="carousel-item active">
+                        <img src="images/Banner/banner-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Start your life with us</h1>
+                            <p>Your wedding day is a day you wait for your entire life. You've planned it all down to
+                                the very last detail with matching bridesmaids dresses, a stunning bouquet, a gorgeous
+                                and yummy cake, and a photographer that's sure to capture images worthy of the greatest
+                                Instagram captions</p>
+                            <a target="blank" class="btn btn-custom-color px-4 py-0.5" href="https://www.theknot.com/"
+                                role="button">Book Now</a>
+                        </div>
+                    </div>
+                    <!-- 2nd slide -->
+                    <div class="carousel-item">
+                        <img src="images/Banner/banner-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Make the best day of your life</h1>
+                            <p>Our lives are full of many days and events, some days will be happy full of good and joy
+                                that will bring joy to our hearts, and remain firmly in the heart forever.The memories
+                                of the happy days remain present in the heart and spirit.</p>
+                            <a target="blank" class="btn btn-custom-color px-4 py-0.5" href="https://www.minted.com/"
+                                role="button">Hire Photographer</a>
+                        </div>
+                    </div>
+                    <!-- 3rd slide -->
+                    <div class="carousel-item">
+                        <img src="images/Banner/banner-3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Tie your knot with us</h1>
+                            <p>Even before I tied the knot, I never really understood why my wedding day had to be the
+                                happiest moment of my entire life. Of course it was wonderful to say “I do” to the
+                                person I want to be with for the rest of my days, but it certainly wasn't the pinnacle
+                                of my existence.</p>
+                            <a target="blank" class="btn btn-custom-color" href="https://www.zola.com/wedding-planning"
+                                role="button">Schedule
+                                Event</a>
+                        </div>
+                    </div>
+                    <!-- 4th slide -->
+                    <div class="carousel-item">
+                        <img src="images/Banner/banner-4.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Best decision of life is with us</h1>
+                            <p>The idea of settling down and getting married might seem old fashioned, but that doesn't
+                                mean it isn't still an important goal for many people. Busy though our lives may be,
+                                most of us are still going to considerable lengths to try and meet that special someone.
+                            </p>
+                            <a target="blank" class="btn btn-custom-color px-5" href="https://weddingplanner.co.uk/"
+                                role="button">More</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Hello, world! This is a toast message.
+                </div>
+            </div>
+        </section>
+        <!-- package part -->
+        <section class="container my-5">
+            <h1 class="text-center my-5" id="Packages">Packages</h1>
+            <div class="row flex-xl-nowrap">
+                <!-- 1st package -->
+                <div class="card shadow p-2 mb-5 bg-body rounded mx-3 col-10 col-xl-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">$300</h3>
+                        <h6 class="card-subtitle my-3"><b>Business Event</b></h6>
+                        <h6 class="my-3">Corporate Events</h6>
+                        <p><i class="fas fa-check-circle"></i> <b>Duration 4hours</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>people Arrangement (100)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>food & water (120)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Basic Decoration</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Live conference</b></p>
+                        <a target="_blank" href="#"><button class="px-5 btn btn-custom-color rounded-pill">Choose
+                                Plan</button></a>
+                    </div>
+                </div>
+                <!-- 2nd package -->
+                <div class="card shadow p-2 mb-5 bg-body rounded mx-3 col-10 col-xl-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">$600</h3>
+                        <h6 class="card-subtitle my-3"><b>Wedding Event One Day</b></h6>
+                        <h6 class="my-3">Only Wedding Day</h6>
+                        <p><i class="fas fa-check-circle"></i> <b>Duration 8hours</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>people Arrangement (250)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>food & water (300)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Wedding Decoration</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Special Offer</b></p>
+                        <a target="_blank" href="#"><button class="px-5 btn btn-custom-color rounded-pill">Choose
+                                Plan</button></a>
+                    </div>
+                </div>
+                <!-- 3rd package -->
+                <div class="card shadow p-4 pt-0 bg-cust rounded position-relative col-10 col-xl-3 mb-sm-4">
+                    <div class="mt-4 ">
+                        <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger">
+                            HOT DEAL <i class="fas fa-fire" aria-hidden="true"></i>
+                        </span>
+                        <h3 class="my-4">$1200</h3>
+                        <h6 class="card-subtitle"><b>Wedding Event Multiple Day</b></h6>
+                        <h6 class="my-3 ">Indian Traditional Wedding</h6>
+                        <p><i class="fas fa-check-circle"></i> <b>Duration 16hours</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>people Arrangement (600)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>food & water (750)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Wedding Decoration for all days</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Special Offer</b></p>
+                        <a target="_blank" href="#"><button class="px-5 btn btn-custom-color rounded-pill">Choose
+                                Plan</button></a>
+                    </div>
+                </div>
+                <!-- 4th package -->
+                <div class="card shadow p-2 mb-5 bg-body rounded mx-3 col-10 col-xl-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">$1500</h3>
+                        <h6 class="card-subtitle my-3"><b>Custom Event</b></h6>
+                        <h6 class="mb-3">Customize your event</h6>
+                        <p><i class="fas fa-check-circle"></i> <b>Duration 24hours</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>people Arrangement (800)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>food & water (1000)</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Custom Decoration</b></p>
+                        <p><i class="fas fa-check-circle"></i> <b>Special Offer</b></p>
+                        <a target="_blank" href="#"><button class="px-5 btn btn-custom-color rounded-pill">Choose
+                                Plan</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hidden part -->
+        <section class="float-end my-auto">
+            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto text-danger">Offer!! Offer!!</strong>
+                    <small>24 Hours left</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    registration Now and get upto <b><span class="text-danger">35% off</span></b> <br> on our Packages.
+                    And
+                    have a
+                    happy married Life. <br><br>
+                    <strong>Also Special Offer for Corporate Events.</strong>
+                </div>
+            </div>
+        </section>
+        <!-- form part -->
+        <section class="container bg-cust py-3 shadow-lg p-3 mb-5 bg-body rounded" id="registration">
+            <h1 class="my-5 text-center">Get Appointment / Booking</h1>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-custom-color">Sign in</button>
+                </div>
+            </form>
+        </section>
+        <!-- drop down part -->
+        <section class="container my-5" id="aboutus">
+            <h1 class="my-5 text-center">About US</h1>
+            <div class="row ">
+                <div class="accordion mx-3 col-xl-6 col-10" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <b>Why is wedding planning important?</b>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Yes</strong>, a planner is vital to the planning process, helps reduce your
+                                stress,
+                                and eases your
+                                mind leading up to the big day.... but the most important attribute a wedding planner
+                                provides is the ability to make sure you are present in each and every moment on your
+                                wedding day. ...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <b>Is it worth getting a wedding planner?</b>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>At</strong> first thought, hiring a wedding planner might seem like a luxurious
+                                splurge. Of course, having someone to make your big day run as smoothly as possible
+                                might
+                                seem like a good idea, but at what cost? When it comes to making the most of your
+                                budget, a
+                                wedding planner can actually help you save more on your bottom line.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <b>What are the benefits of hiring a wedding planner?</b>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Most</strong> people who have been engaged know how difficult it can be to plan
+                                a
+                                wedding. Searching
+                                for the perfect wedding venue, finding vendors you can trust, staying within your
+                                wedding
+                                budget, the list goes on and on. Many people hear the name “wedding planner” and
+                                automatically think hiring one is something they can’t fit into their wedding budget.
+                                However, hiring a wedding planner can more often than not save you money when planning
+                                your
+                                wedding. Wedding coordinators are experts in taking your wedding vision and executing
+                                into
+                                an event you will remember for the rest of your life.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                <b>What should I expect from a wedding planner?</b>
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>A </strong>
+                                professional wedding coordinator is one of the most fundamental parts of having an
+                                amazing
+                                wedding day, but beyond day-of coordination, you may not even realize the full scope of
+                                wedding planner duties. Along with their expert wedding planning advice, guidance, and
+                                organization, a wedding planner can handle all—and we mean all— the little things you
+                                may
+                                need an extra hand to cover.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                <b>How much does a 100 person wedding cost?</b>
+                            </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>When </strong>budgeting for a wedding, how much food will cost is on the
+                                forefront
+                                of many people's minds. After all, your guests have to eat. How much is food catering
+                                for a
+                                wedding? It depends on the cost per plate, but most receptions for 100 people cost
+                                around
+                                $5,000 to $10,000, with average cost being around $7,000.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-3 col-xl-5 col-10 mt-3">
+                    <img width="100%" src="images/people.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-foot-color py-4">
+        <div class="container-fluid row justify-content-between ">
+            <div class="text-light d-flex align-items-center ms-xl-5 col-xl-3 col-12">
+                <i class="far fa-copyright text-light"></i> 2022 Abdullah Inc. All rights reserved
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center me-xl-0 col-xl-3 col-12">
+                <p class="text-light">Get the App</p>
+                <a target="blank"
+                    href="https://play.google.com/store/apps/details?id=com.codersbucket.surokkha_app"><img
+                        src="icons/Google_Play-Badge-Logo.wine.svg" alt=""></a>
+                <a target="blank" href="https://apps.apple.com/us/app/8-ball-pool/id543186831"><img src="icons/app.svg"
+                        alt=""></a></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
